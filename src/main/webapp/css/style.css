@@ -1,0 +1,221 @@
+body {
+    font-family: Open Sans,sans-serif;
+    /*overflow-x:hidden;
+    overflow-y:hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;*/
+}
+
+.page, body {
+    background-color: #f8f8f8;
+}
+
+.button-sp-area {
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 60%
+}
+
+.page__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page.searchbar .searchbar-result{display:none;margin-top:0;font-size:14px}
+.page.searchbar .searchbar-result .weui-cell__bd{padding:2px 0 2px 20px;color:#666}
+
+.page .search_page .weui-cells {
+    margin-top: 0px;
+    background-color: #fff;
+    line-height: 1.41176471;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.search_page .weui-cell__ft {
+    text-align: right;
+    color: #999;
+    padding-right: 13px;
+    position: relative;
+    font-size: 12px;
+}
+
+.tabber {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.weui-cell-otuser {
+    padding: 5px 15px !important;
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+.list-page {
+/*    overflow-y:auto;
+    overflow-x:hidden;
+    width:100%;
+    height:100%;*/
+}
+
+.list-page .weui-cells {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+}
+
+.brand-label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.nav>li>a {
+    padding: 18px 25px 0 25px !important;
+}
+
+.gen-bg {
+
+}
+
+.header-placeholder {
+    height: 50px;
+}
+
+
+.site-content {
+    text-align: center;
+}
+.site-title{
+    position:absolute;
+    top: 350px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.site-title .main-title {
+    font-size: 45px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:#666;
+    padding: 10px 0;
+}
+
+.site-title .sub-title {
+    font-size: 20px;
+    padding: 10px 0 20px 0;
+}
+
+.site-title .btn {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.site-title .btn-outline-inverse {
+    color: #fff;
+    background-color: transparent;
+    border-color: #cdbfe3;
+}
+
+.site-title .btn-outline-inverse:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #cdbfe3;
+}
+
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 1px solid #cdbfe3;
+}
+
+.company-info {
+    color: #666;
+    background-color: #fbfbfb;
+}
+
+.section-title {
+    font-family: Vollkorn,PingFang SC,Microsoft YaHei,微软雅黑,STXihei,华文细黑,serif;
+    font-size: 30px;
+}
+
+.section-content {
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+}
+
+.section-text {
+    padding-top: 40px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 880px;
+    color: #a3a3a3;
+    font-size: 19px;
+}
+
+.box-content {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.info-box {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ced3c4;
+    border-radius: 5px;
+    box-shadow: none;
+    width: 280px;
+    height: 145px;
+    margin: 0 10px ;
+    padding: 30px 0 0 0 ;
+}
+
+.info-box .box-title {
+    color:#605f6d;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.info-box .box-detail{
+    font-size: 20px;
+}
+
+.product-category-section {
+    color: #666;
+    background-color: #fff;
+}
+
+.img-box {
+    display: inline-block;
+    margin: 0 10px ;
+}
+
+.img-box .box-info {
+    color:#605f6d;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.img-box .box-detail {
+    font-size: 20px;
+    width: 280px;
+}
+
+.box-inner-img {
+    width: 280px;
+}

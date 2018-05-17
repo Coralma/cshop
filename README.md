@@ -1,2 +1,1 @@
-# cshop
-a template proejct
+# fastweb
